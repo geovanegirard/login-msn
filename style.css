@@ -1,7 +1,48 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 body {
     background-size: 100vw;
     background-image: url(fundomsn.png);
     background-repeat: no-repeat;
     width: 100vw;
+   
+}
+
+nav {
     
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.inicio {
+    padding: 4rem;
+}
+
+.sobre {
+    padding: 4rem;
+}
+
+.contato {
+    padding: 4rem;
+}
+
+.duvidas {
+    padding: 4rem;
+}
+
+section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+    line-height: 2rem;
+    border: solid;
 }
