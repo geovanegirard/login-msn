@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    section.login {
+        width: 80vw;
+    }
+
+    section.login > article#imagem {
+        float: left;
+        width: 33%;    
+    }
+
+    section.login > article#formulario {
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    section.login {
+        width: 950px;
+    }
+
+    section.login > article#imagem {
+        float: left;
+        width: 24%;
+    }
+
+    section.login > article#formulario {
+        float: right;
+        width: 60%;
+    }
+}
