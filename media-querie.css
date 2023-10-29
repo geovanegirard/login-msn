@@ -3,6 +3,17 @@
         display: none;
     }
 
+    section.login > article#imagem {
+        display: block;
+        background: url(imagens/msn.png) no-repeat;
+        background-size: cover;
+        height: 7rem;
+        margin: 0.4rem;   
+    }
+    
+    article#imagem > img {
+        display: none;
+    }
     
 }
 
@@ -26,13 +37,29 @@
     }
 
     section.login > article#imagem {
-        background-image: none;
+        display: block;
+        margin: auto;
+        width: 8rem;
+        height: 8rem;
+        background-color: rgba(168, 186, 243, 0.274);
+        border-radius: 100px;
+        border: solid 0.1rem;
     }
 
     section.login > article#formulario {
-        float: right;
+        margin: auto;
         text-align: center;
-        width: 100%;
+        width: 80%;
+    }
+
+    article#imagem > img {
+        height: 5rem;
+        width: 7rem;
+        margin-top: 20px;
+        margin-left: 6px;
+        background-repeat: no-repeat;
+        background-position: center;
+        
     }
 }
 
@@ -52,17 +79,32 @@
 
     section.login {
         width: 50vw;
-        height: 50vh;
+        height: 56vh;
     }
 
     section.login > article#imagem {
-        background-image: none;
+        display: block;
+        margin: auto;
+        width: 8rem;
+        height: 8rem;
+        background-color: rgba(168, 186, 243, 0.274);
+        border-radius: 100px;
+        border: solid 0.1rem;
     }
 
     section.login > article#formulario {
-        float: right;
+        margin: auto;
         text-align: center;
-        width: 100%;
+        width: 80%;
+    }
+
+    article#imagem > img {
+        height: 5rem;
+        width: 7rem;
+        margin-top: 20px;
+        margin-left: 6px;
+        background-repeat: no-repeat;
+        background-position: center;
     }
 
 }
