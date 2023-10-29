@@ -1,31 +1,68 @@
+@media screen and (max-width: 767px) {
+    ul {
+        display: none;
+    }
+
+    
+}
+
 @media screen and (min-width: 768px) and (max-width: 992px) {
+    body, html {
+        background: url(imagens/planet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    body {
+        display: block;
+        background: url(imagens/msn.png) no-repeat;
+        background-size: cover;
+        background-size: 200px;
+        background-position: right bottom;
+    }
+
     section.login {
-        width: 80vw;
+        width: 50vw;
+        height: 50vh;
     }
 
     section.login > article#imagem {
-        float: left;
-        width: 33%;    
+        background-image: none;
     }
 
     section.login > article#formulario {
         float: right;
-        width: 60%;
+        text-align: center;
+        width: 100%;
     }
 }
 
 @media screen and (min-width: 992px) {
+    body, html {
+        background: url(imagens/planet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    body {
+        display: block;
+        background: url(imagens/msn.png) no-repeat;
+        background-size: cover;
+        background-size: 200px;
+        background-position: right bottom;
+    }
+
     section.login {
-        width: 950px;
+        width: 50vw;
+        height: 50vh;
     }
 
     section.login > article#imagem {
-        float: left;
-        width: 24%;
+        background-image: none;
     }
 
     section.login > article#formulario {
         float: right;
-        width: 60%;
+        text-align: center;
+        width: 100%;
     }
+
 }
