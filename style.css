@@ -38,9 +38,8 @@ main {
     width: 100vw;
 }
 
-
 section.login {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -135,4 +134,3 @@ div > a.botao:hover {
     color: white;
     border: solid white 0.1rem;
 }
-

@@ -33,7 +33,7 @@
 
     section.login {
         width: 50vw;
-        height: 50vh;
+        height: 60vh;
     }
 
     section.login > article#imagem {
@@ -63,7 +63,53 @@
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width: 1366px) {
+    body, html {
+        background: url(imagens/planet.jpg) no-repeat;
+        background-size: cover;
+    }
+
+    body {
+        display: block;
+        background: url(imagens/msn.png) no-repeat;
+        background-size: cover;
+        background-size: 200px;
+        background-position: right bottom;
+    }
+
+    section.login {
+        width: 50vw;
+        height: 60vh;
+    }
+
+    section.login > article#imagem {
+        display: block;
+        margin: auto;
+        width: 8rem;
+        height: 8rem;
+        background-color: rgba(168, 186, 243, 0.274);
+        border-radius: 100px;
+        border: solid 0.1rem;
+    }
+
+    section.login > article#formulario {
+        margin: auto;
+        text-align: center;
+        width: 80%;
+    }
+
+    article#imagem > img {
+        height: 5rem;
+        width: 7rem;
+        margin-top: 20px;
+        margin-left: 6px;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+}
+
+@media screen and (min-width: 1367px) {
     body, html {
         background: url(imagens/planet.jpg) no-repeat;
         background-size: cover;
